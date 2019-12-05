@@ -1,0 +1,74 @@
+/* You can add global styles to this file, and also import other style files */
+.bg-dark {
+  background-color: black !important;
+}
+
+body {
+  background-color: black;
+}
+
+.container-cards {
+  color: white;
+  padding-top: 2rem;
+}
+
+.container-cards-scrolling {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 1rem;
+}
+
+.container-cards-item {
+  display: inline-block;
+  transition: all 0.2 ease-in-out;
+  max-height: 10rem;
+  max-width: 15rem;
+}
+
+.container-cards-item:hover {
+  transform: scale(1.2);
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.container-cards-item img {
+  height: 100%;
+  width: 100%;
+}
+
+.container-cards-title {
+  margin-left: 1rem;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-item-img {
+  max-height: 60vh;
+}
+
+.carousel-item-img img {
+  width: 100%;
+  opacity: 0.3;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+.carousel-item-content {
+  text-align: left;
+  top: 10vh;
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 9999;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
